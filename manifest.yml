@@ -1,0 +1,10 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: lkm-nodejs1
+  host: lkm-nodejs1
+  disk_quota: 1024M
+  services:
+  - lkm-nodejs1-cloudantNoSQLDB
